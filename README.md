@@ -1,7 +1,7 @@
-#### Bookshelf
+## Bookshelf
 This is a simple bookshelf web application built using JavaScript, HTML, and CSS. It allows you to add books to the bookshelf and display them on the web page.
 
-## Features
+#### Features
 Add books to the bookshelf by filling out the title, author, pages, and read status.
 Display the added books on the bookshelf.
 Delete individual books from the bookshelf.
@@ -23,7 +23,7 @@ To delete a book, click the "Delete" button on the respective book card.
 
 You can add multiple books by repeating steps 2 to 6.
 
-## JS Code Explanation
+#### JS Code Explanation
 The JavaScript code (main.js) is responsible for handling the functionality of the bookshelf application. It defines several functions:
 
 buchHinzufuegen(): This function is called when the user clicks the "Add Book" button or submits the book entry form. It retrieves the input values, validates them, creates a new book object, adds it to the buecher array, and calls the buecherAnzeigen() and formularZuruecksetzen() functions.
