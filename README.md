@@ -24,7 +24,7 @@ To delete a book, click the "Delete" button on the respective book card.
 You can add multiple books by repeating steps 2 to 6.
 
 #### JS Code Explanation
-The JavaScript code (main.js) is responsible for handling the functionality of the bookshelf application. It defines several functions:
+The JavaScript code (main.js) is responsible several functions:
 
 buchHinzufuegen(): This function is called when the user clicks the "Add Book" button or submits the book entry form. It retrieves the input values, validates them, creates a new book object, adds it to the buecher array, and calls the buecherAnzeigen() and formularZuruecksetzen() functions.
 
@@ -37,7 +37,7 @@ loeschen(index): This function returns a closure that wraps the buchLoeschen() f
 formularZuruecksetzen(): This function resets the book entry form by clearing the input fields and unchecking the "Read?" checkbox.
 
 
-The HTML file (index.html) contains the structure of the web page, including the bookshelf container, book cards, book entry form, and buttons. It also includes the necessary CSS styles (styles.css) for the visual presentation of the elements.
+The HTML file (index.html) contains the structure of the web page like the bookshelf container, book cards, book entry form, and buttons. It's also linked to the CSS file.
 
 
 Styling
