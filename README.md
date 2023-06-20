@@ -36,9 +36,9 @@ loeschen(index): This function returns a closure that wraps the buchLoeschen() f
 
 formularZuruecksetzen(): This function resets the book entry form by clearing the input fields and unchecking the "Read?" checkbox.
 
-
+#### HTML
 The HTML file (index.html) contains the structure of the web page like the bookshelf container, book cards, book entry form, and buttons. It's also linked to the CSS file.
 
 
-Styling
+#### Styling
 The CSS file  defines the styles for various elements of the web page. The styles aim to provide a clean and responsive design.
