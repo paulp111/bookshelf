@@ -20,7 +20,7 @@ To delete a book, click the "Delete" button on the respective book card.
 You can add multiple books by repeating steps 2 to 6.
 
 
-## Code Explanation
+### Code Explanation
 The JavaScript code (main.js) handles the following functions:
 
 buchHinzufuegen(): Adds a book to the bookshelf when the user clicks the "Add Book" button or submits the book entry form. It retrieves the input values, validates them, creates a new book object, adds it to the book array, and updates the bookshelf.
