@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Bookshelf 📙</h1>
+    </header>
+    <div class="container">
+        <div class="bookshelf">
+            
+        </div>
+        <button id="hinzufuegen-button"><svg xmlns="http://www.w3.org/2000/svg" 
+            height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - 
+                https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright
+                2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 
+                32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></button>
+        <form id="neues-buch-formular" class="formular" style="display: none;">
+            <h2>Add Book</h2>
+            <div class="formular-gruppe">
+                <label for="titel">Title:</label>
+                <input type="text" id="titel" name="titel">
+            </div>
+            <div class="formular-gruppe">
+                <label for="autor">Author:</label>
+                <input type="text" id="autor" name="autor">
+            </div>
+            <div class="formular-gruppe">
+                <label for="seiten">Pages:</label>
+                <input type="number" id="seiten" name="seiten">
+            </div>
+            <div class="formular-gruppe">
+                <label for="gelesen">Read?</label>
+                <input type="checkbox" id="gelesen" name="gelesen">
+            </div>
+            <div class="formular-gruppe">
+                <button type="submit" class="glow-on-hover"><div class="button-text">Add a Book</div></button>
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
